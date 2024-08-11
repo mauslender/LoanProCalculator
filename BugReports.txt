@@ -1,0 +1,29 @@
+Bug 1: Handling of Decimal Precision
+Scenario: Adding 1.00000001 + 1.00000001.
+Issue: The result is 2.0 instead of 2.00000002.
+Hint: The calculator may be rounding or truncating decimal places beyond the supported precision (8 decimal places). This could be due to the internal data type used to handle floating-point arithmetic.
+
+Bug 2: Division by Zero
+Scenario: Dividing any number by zero.
+Issue: The calculator returns an error, but the error message may not be informative enough.
+Hint: Ensure the error handling mechanism is robust and provides clear and informative messages when the user performs invalid operations like division by zero.
+
+Bug 3: Overflow Errors
+Scenario: Multiplying 1E10 by 1E10.
+Issue: The calculator may return an incorrect result or an error due to overflow.
+Hint: The calculator might not be handling large numbers or scientific notation properly, leading to potential overflow errors.
+
+Bug 4: Scientific Notation Handling
+Scenario: Multiplying large numbers that result in a scientific notation output.
+Issue: The result might not be formatted correctly or could be inaccurate.
+Hint: The handling of scientific notation might not be fully supported, or the conversion between standard and scientific notation could introduce errors.
+
+Bug 5: Invalid Operations
+Scenario: Entering an invalid operation such as "invalid 10 5".
+Issue: The calculator returns an error, but it may not handle all invalid operations gracefully.
+Hint: The command parser may not be handling unexpected inputs correctly, leading to uncaught exceptions or generic error messages.
+
+Bug 6: Negative Number Handling
+Scenario: Adding a positive and a negative number.
+Issue: The calculator may return an incorrect result or behave unexpectedly.
+Hint: Ensure that the calculator properly handles operations involving negative numbers, as issues may arise from incorrect arithmetic logic or sign handling.
