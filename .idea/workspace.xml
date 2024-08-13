@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="166f02d2-0f9d-40a3-9e1b-36080c2e06ef" name="Changes" comment="." />
+    <list default="true" id="166f02d2-0f9d-40a3-9e1b-36080c2e06ef" name="Changes" comment=".">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/loanpro/LoanProCalculatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/loanpro/LoanProCalculatorTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,14 +33,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.loanpro" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LoanProCalculatorTest.testInvalidOperation">
     <configuration name="LoanProCalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.loanpro.LoanProCalculatorTest" />
       <module name="LoanProCalculatorTest" />
@@ -50,8 +59,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LoanProCalculatorTest.testInvalidOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LoanProCalculatorTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loanpro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loanpro" />
+      <option name="MAIN_CLASS_NAME" value="com.loanpro.LoanProCalculatorTest" />
+      <option name="METHOD_NAME" value="testInvalidOperation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoanProCalculatorTest.testZeroDivision" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="LoanProCalculatorTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.loanpro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.loanpro" />
+      <option name="MAIN_CLASS_NAME" value="com.loanpro.LoanProCalculatorTest" />
+      <option name="METHOD_NAME" value="testZeroDivision" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.LoanProCalculatorTest.testInvalidOperation" />
+        <item itemvalue="JUnit.LoanProCalculatorTest.testZeroDivision" />
         <item itemvalue="Application.LoanProCalculatorTest" />
       </list>
     </recent_temporary>
@@ -73,7 +116,15 @@
       <option name="project" value="LOCAL" />
       <updated>1723402264825</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary=".">
+      <option name="closed" value="true" />
+      <created>1723555806301</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723555806301</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
